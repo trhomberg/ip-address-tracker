@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;0,700;1,400&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  background-color: lightgray;
+}
+
+.heading {
+  background-image: url("images/pattern-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+
+.heading h1 {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 50px;
+  color: #ffff;
+}
+
+.heading form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.heading form input {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  border: 1px solid #000;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.heading form input:focus {
+  outline: none;
+}
+
+.heading form input::-webkit-input-placeholder {
+  font-size: 18px;
+}
+
+.heading form input:-ms-input-placeholder {
+  font-size: 18px;
+}
+
+.heading form input::-ms-input-placeholder {
+  font-size: 18px;
+}
+
+.heading form input::placeholder {
+  font-size: 18px;
+}
+
+.heading form button {
+  background-color: #000;
+  border: 1px solid #000;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 20px;
+}
+
+.heading form button img {
+  width: 13px;
+  height: 18px;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #ffff;
+  text-align: center;
+  width: 75%;
+  height: 180px;
+  margin: 0 auto;
+  z-index: 1000;
+  position: absolute;
+  top: 25%;
+  left: 12%;
+  border-radius: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .ip-item {
+  border-right: 1px solid lightgray;
+}
+
+.container .ip-item h4 {
+  color: #969696;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container .ip-item p {
+  color: #2b2b2b;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#mapid {
+  height: 50em;
+}
+/*# sourceMappingURL=styles.css.map */
